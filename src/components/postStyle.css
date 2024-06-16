@@ -1,0 +1,133 @@
+.post-container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1100px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+}
+
+.left-section {
+  width: 60%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-right: 20px;
+}
+
+.right-section {
+  width: 40%;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 20px;
+  max-height: 500px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+  color: #333333;
+}
+
+h3 {
+  margin-top: 0;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.post-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #dddddd;
+  padding: 10px 0;
+}
+
+.post-item:last-child {
+  border-bottom: none;
+}
+
+.post-content {
+  flex: 1;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.post-content h4 {
+  margin-bottom: 5px;
+  color: #333333;
+}
+
+.post-actions {
+  margin-left: 16px;
+  max-width: 20%;
+}
+
+.labelPost {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+  color: #333333;
+}
+
+textarea,
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  resize: none;
+}
+
+.textAreaForm {
+  width: calc(100% - 20px);
+  height: 200px;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 16px;
+  caret-color: auto;
+  text-align: left;
+  resize: none;
+}
+
+button {
+  width: 100%;
+  padding: 12px 20px;
+  background-color: #4caf50;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+@media (max-width: 768px) {
+  .post-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
