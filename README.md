@@ -2,11 +2,11 @@
 
 ## Requisitos Previos
 
-Antes de comenzar, asegúrate de tener instalados los siguientes requisitos en tu sistema:
+Antes de comenzar, asegúrate de tener instalado el siguiente requisito en tu sistema:
    
 1. **Node.js**: Asegúrate de tener Node.js instalado en tu máquina.
 
-## Pasos para Configurar el Backend
+## Pasos para Configurar el Frontend
 
 ### 1. Instalación de Dependencias
 
@@ -16,8 +16,8 @@ npm install
 
 ### 2. Iniciar el Servidor
 
-Finalmente, para iniciar el servidor backend, utiliza el siguiente comando:
+Finalmente, para iniciar el servidor frontend, utiliza el siguiente comando:
 
 npm start
 
-El servidor se ejecutará en el puerto especificado en el archivo `.env` (por defecto, puerto 3000).
+El servidor se ejecutará en el puerto por defecto (puerto 3000).
